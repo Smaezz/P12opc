@@ -1,23 +1,27 @@
-const logotext = "JOHN";
+import ArgentBank from '../src/assets/images/ArgentBank.png';
+import Kasa from '../src/assets/images/Kasa.png';
+import SophieBluel from '../src/assets/images/SophieBluel.png';
+import ohmyfood from '../src/assets/images/ohmyfood.png';
+const logotext = "Bienvenue";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Ismaël EZZEDINE",
+    description: "Intégrateur Web",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Je suis Ismaël, je vous propose:",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Conception de sites web et web mobile",
+        second: "Augmentation des performances de votre site",
+        third: "Amélioration du référencement",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Languages: Html, Css, Javascript, React",
+    your_img_url: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Ma formation",
+    aboutme: "Integrateur Web chez Openclassrooms (2023)",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,24 +41,20 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "Html",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Css",
+        value: 70,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Javascript",
+        value: 70,
+    },
+    {
+        name: "React",
+        value: 70,
     },
 ];
 
@@ -73,84 +73,42 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ArgentBank,
+        description: "Application bancaire utilisant : REACT / REDUX toolkit",
+        link: "https://github.com/Smaezz/P11opc.git",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: Kasa,
+        description: "Application de locations immobiliéres avec : REACT",
+        link: "https://github.com/Smaezz/P8opc-myapp.git",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: SophieBluel,
+        description: "Application portfolio pour une architecte avec Javascript",
+        link: "https://github.com/Smaezz/P6opc.git",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ohmyfood,
+        description: "Application dédiée à la restauration utilisant des animations CSS",
+        link: "https://smaezz.github.io/P4opc/",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "i.ezzedine76@gmail.com",
+    YOUR_FONE: "",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    // YOUR_SERVICE_ID: "service_id",
+    // YOUR_TEMPLATE_ID: "template_id",
+    // YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/Smaezz",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://linkedin.com/in/ismaël-ezzedine-75649420b",
 };
 export {
     meta,
