@@ -11,9 +11,9 @@ const meta = {
 const introdata = {
     title: "Je suis Ismaël, je vous propose:",
     animated: {
-        first: "Conception de sites web et web mobile",
-        second: "Augmentation des performances de votre site",
-        third: "Amélioration du référencement",
+        first: "La conception de votre site web et web mobile",
+        second: "L' Augmentation des performances de votre application",
+        third: "L' Amélioration de votre référencement web",
     },
     description: "Languages: Html, Css, Javascript, React",
     your_img_url: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -58,11 +58,11 @@ const services = [{
         description: "Nous élaborerons ensemble les contours et fonctionnalités de votre application pour répondre à vos objectifs.",
     },
     {
-        title: "Augmentation des performances de votre site",
+        title: "Augmentation des performances de sites web",
         description: "À la suite d'un audit de votre application, je vous proposerais des adaptations permettants une navigation plus fluide et plus accessible.",
     },
     {
-        title: "Amélioration du référencement",
+        title: "Amélioration du référencement web",
         description: "Améliorons le référencement de votre application pour accueillir plus de visiteurs ou de clients. ",
     },
 ];
