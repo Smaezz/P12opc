@@ -2,7 +2,7 @@ import ArgentBank from '../src/assets/images/ArgentBank.png';
 import Kasa from '../src/assets/images/Kasa.png';
 import SophieBluel from '../src/assets/images/SophieBluel.png';
 import ohmyfood from '../src/assets/images/ohmyfood.png';
-const logotext = "Bienvenue";
+const logotext = "Ismaël EZZEDINE";
 const meta = {
     title: "Ismaël EZZEDINE",
     description: "Intégrateur Web",
@@ -24,19 +24,14 @@ const dataabout = {
     aboutme: "Integrateur Web chez Openclassrooms (2023)",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "Site Wordpress",
+        where: "Mon entreprise de Naturopathe",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Travaux dans le cadre de ma formation",
+        where: "12 projets chez Openclassrooms",
+        date: "2023",
     },
 ];
 
@@ -59,16 +54,16 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Conception de sites web et web mobile",
+        description: "Nous élaborerons ensemble les contours et fonctionnalités de votre application pour répondre à vos objectifs.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Augmentation des performances de votre site",
+        description: "À la suite d'un audit de votre application, je vous proposerais des adaptations permettants une navigation plus fluide et plus accessible.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Amélioration du référencement",
+        description: "Améliorons le référencement de votre application pour accueillir plus de visiteurs ou de clients. ",
     },
 ];
 
@@ -97,7 +92,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "i.ezzedine76@gmail.com",
     YOUR_FONE: "",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "À bientôt !",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     // YOUR_SERVICE_ID: "service_id",
