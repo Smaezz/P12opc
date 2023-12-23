@@ -78,3 +78,9 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+@media screen and (min-width: 1200px) {
+.contentCenter {
+    width: 1000px;
+}
+}
