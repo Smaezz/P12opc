@@ -79,6 +79,15 @@
     text-decoration: none;
 }
 
+.details {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.projectButton {
+    margin-bottom: 10px;
+}
+
 @media screen and (min-width: 1200px) {
 .contentCenter {
     width: 1000px;

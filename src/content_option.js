@@ -69,23 +69,35 @@ const services = [{
 
 const dataportfolio = [{
         img: ArgentBank,
-        description: "Application bancaire utilisant : REACT / REDUX toolkit",
+        description: "Application bancaire utilisant REACT / REDUX toolkit",
         link: "https://github.com/Smaezz/P11opc.git",
+        detail1: ">>> Gestion du state global avec Redux.",
+        detail2: ">>> Utilisation des Hooks pour gérer l'état des éléments ainsi que le déclenchement de mises à jour.",
+        detail3: ">>> Gestion des appels API et création de nouvelles routes pour la suite du développement.",
     },
     {
         img: Kasa,
         description: "Application de locations immobiliéres avec : REACT",
         link: "https://github.com/Smaezz/P8opc-myapp.git",
+        detail1: ">>> Initialiser un projet, développer des composants en react et configurer la navigation avec React Router.",
+        detail2: ">>> Développer une interface web avec Sass.",
+        detail3: ">>> Mettre en oeuvre des animations CSS.",
     },
     {
         img: SophieBluel,
         description: "Application portfolio pour une architecte avec Javascript",
         link: "https://github.com/Smaezz/P6opc.git",
+        detail1: ">>> Gérer les événements utilisateurs avec JavaScript.",
+        detail2: ">>> Manipuler les éléments du DOM avec JavaScript.",
+        detail3: ">>> Récupérer les données utilisateurs dans le JavaScript via des formulaires.",
     },
     {
         img: ohmyfood,
         description: "Application dédiée à la restauration utilisant des animations CSS",
         link: "https://smaezz.github.io/P4opc/",
+        detail1: ">>> Intégrer une maquette en mobile-first.",
+        detail2: ">>> Mettre en œuvre des animations CSS.",
+        detail3: ">>> Versionner un projet avec Git et Github.",
     },
 ];
 
