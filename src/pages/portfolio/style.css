@@ -80,12 +80,12 @@
 }
 
 .details {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .projectButton {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 @media screen and (min-width: 1200px) {
