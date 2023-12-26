@@ -23,35 +23,35 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.github && (
           <li>
-            <a href={socialprofils.github}>
+            <a href={socialprofils.github} aria-label="Github">
               <FaGithub />
             </a>
           </li>
         )}
         {socialprofils.facebook && (
           <li>
-            <a href={socialprofils.facebook}>
+            <a href={socialprofils.facebook} aria-label="Facebook">
               <FaFacebookF />
             </a>
           </li>
         )}
         {socialprofils.linkedin && (
           <li>
-            <a href={socialprofils.linkedin}>
+            <a href={socialprofils.linkedin} aria-label="Linkedin">
               <FaLinkedin />
             </a>
           </li>
         )}
         {socialprofils.youtube && (
           <li>
-            <a href={socialprofils.youtube}>
+            <a href={socialprofils.youtube} aria-label="Youtube">
               <FaYoutube />
             </a>
           </li>
         )}
         {socialprofils.twitch && (
           <li>
-            <a href={socialprofils.twitch}>
+            <a href={socialprofils.twitch} aria-label="Twitch">
               <FaTwitch />
             </a>
           </li>
