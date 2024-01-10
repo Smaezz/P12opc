@@ -30,10 +30,12 @@ export const ContactUs = () => {
 
     emailjs
       .send(
-        contactConfig.YOUR_SERVICE_ID,
-        contactConfig.YOUR_TEMPLATE_ID,
-        templateParams,
-        contactConfig.YOUR_USER_ID
+        // contactConfig.YOUR_SERVICE_ID,
+        service_1hotbrn,
+        // contactConfig.YOUR_TEMPLATE_ID,
+        // templateParams,
+        // contactConfig.YOUR_USER_ID
+        eur5oP6TjCqV1Bex_
       )
       .then(
         (result) => {
