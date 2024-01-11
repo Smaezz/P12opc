@@ -30,14 +30,11 @@ export const ContactUs = () => {
 
     emailjs
       .send(
-        // contactConfig.YOUR_SERVICE_ID,
-        service_1hotbrn,
-        // contactConfig.YOUR_TEMPLATE_ID,
-        template_r8e3t44,
+        contactConfig.YOUR_SERVICE_ID,
+        contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        // contactConfig.YOUR_USER_ID
-        eur5oP6TjCqV1Bex_
-      )
+        contactConfig.YOUR_USER_ID
+        )
       .then(
         (result) => {
           console.log(result.text);
@@ -106,7 +103,7 @@ export const ContactUs = () => {
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                  <strong>Mobile:</strong> {contactConfig.YOUR_FONE}
                 </p>
               ) : (
                 ""
