@@ -33,7 +33,8 @@ export const ContactUs = () => {
         // contactConfig.YOUR_SERVICE_ID,
         service_1hotbrn,
         // contactConfig.YOUR_TEMPLATE_ID,
-        // templateParams,
+        template_r8e3t44,
+        templateParams,
         // contactConfig.YOUR_USER_ID
         eur5oP6TjCqV1Bex_
       )
